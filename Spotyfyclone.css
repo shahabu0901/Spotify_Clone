@@ -1,0 +1,343 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#nav>article{
+    height: 80px;
+    width: 90%;
+    display: flex;
+}
+#nav>article>.Logo{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#nav>article>.Logo>svg{
+     width: 23%;
+     fill: white;
+}
+#nav>article>.Menu{
+    height: 80px;
+    width: 45%;
+}
+#nav>article>.Menu>ol{
+    height: 80px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>article>.Menu>ol>li>a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#homepage{
+   height: 100vh;
+   width: 100%;
+   background: url(./images/bubbles-dktp.svg) , linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;    
+}
+
+#homepage>article{
+     height: 80%;
+     width: 70%;
+     border: 2px solid transparent;
+     display: flex;
+     
+}
+
+#homepage>article>.phone{
+    height: 100%;
+    width: 30%;
+    background-color:transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#homepage>article>.text{
+    height: 100%;
+    width: 70%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homepage>article>.text{
+        height: 100%;
+        width: 70%;
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding-left: 20px;
+}
+
+#homepage>article>.text>h1{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+#homepage>article>.text>button{
+    height: 40px;
+    width: 180px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    margin-top: 25px;
+    
+}
+
+#homepage>article>.text>button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#profile{
+text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#flexpart{
+    height: 80vh;
+    width: 1500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#flexpart>.a{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px white;
+}
+
+#img1{
+    height: 150px;
+    width: 150px;
+    background-image: url(./img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 100%;
+    margin-left: 80px;
+}
+
+#img2{
+    height: 150px;
+    width: 150px;
+    background-image:url(./img2.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 100%;
+    margin-left: 80px;
+    box-shadow: 0px 0px 15px white;
+}
+
+#img3{
+    height: 150px;
+    width: 150px;
+    background-image:url(./img3.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 100%;
+    margin-left: 80px;
+    box-shadow: 0px 0px 15px white;
+}
+
+#img4{
+    height: 150px;
+    width: 150px;
+    background-image:url(./img4.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 100%;
+    margin-left: 80px;
+    box-shadow: 0px 0px 15px white
+}
+
+#flexpart>.b{
+    background-color: transparent;
+    padding-top: 10px; 
+}
+
+#flexpart>.c{
+    background-color: transparent;
+    padding-top: 10px;
+}
+#flexpart>.d{
+    background-color: transparent;
+    padding-top: 10px; 
+}
+#flexpart>.e{
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+#heading>h1{
+    padding-top: 55px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+#generaltext{
+    height: 70vh;
+   width: 100%;
+   background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+   
+}
+
+#generaltext>article>.first{
+    font-size: 50px;
+    padding-top: 220px;
+    text-align: center;
+    color: white;
+}
+
+#generaltext>article>.secound{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+#homepage>article>.phone>img{
+ height: 500px;
+ width: 300px; 
+ position: absolute;
+ 
+}
+#footer{
+ height: 90vh;
+ width: 100%;
+ background-color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#footer>article{
+ height: 80%;
+ width: 90%;
+/* border: 1px solid white;*/
+ display: flex;
+}
+#footer>article>.logo{
+ height: 100%;
+ width: 20%;
+/* background-color: red;*/
+}
+#footer>article>.logo>svg{
+ height: 100px;
+ width: 120px;
+ fill: white;
+ margin-left: 100px;
+}
+#footer>article>.company{
+ height: 100%;
+ width: 20%;
+/* background-color: aqua;*/
+ 
+ 
+}
+#footer>article>.company>h5{
+ height: 25px;
+ width: 25px;
+ color: white;
+ font-weight: lighter;
+ margin-left: 50px;
+ margin-top: 10px;
+ 
+}
+#footer>article>.company>h4{
+ height: 25px;
+ width: 25px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-left: 50px;
+ margin-top: 20px;
+}
+#footer>article>.communities{
+ height: 100%;
+ width: 20%;
+/* background-color: aquamarine;*/
+}
+#footer>article>.communities>h5{
+ height: 25px;
+ width: 25px;
+ color: white;
+ font-weight: lighter;
+ margin-left: 20px;
+ margin-top: 10px;
+}
+#footer>article>.communities>h4{
+ height: 25px;
+ width: 25px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-left: 20px;
+ margin-top: 20px;
+}
+#footer>article>.usefullinks{
+ height: 100%;
+ width: 20%;
+ /*background-color: burlywood;*/
+}
+#footer>article>.usefullinks>h5{
+ height: 25px;
+ width: 25px;
+ color: white;
+ font-weight: lighter;
+ margin-left: 20px;
+ margin-top: 10px;
+}
+#footer>article>.usefullinks>h4{
+ height: 25px;
+ width: 25px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-left: 20px;
+ margin-top: 20px;
+ 
+}
+#footer>article>.font{
+ height: 100%;
+ width: 20%;
+ /*background-color: chartreuse;*/
+}
+
